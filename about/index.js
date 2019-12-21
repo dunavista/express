@@ -11,6 +11,7 @@ app.get('*', (req, res) => {
     res.send(200, `
         <h1><marquee direction=left>Hello from Express path '/about' on Now 2.0!</marquee></h1>
         <h2>Go to <a href="/">/</a></h2>
+        <h2>this is a test</h2>
     `)
 })
 
